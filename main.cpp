@@ -33,7 +33,7 @@ int main() {
     do {
         std::cin >> player;
         if ((player != 'r') && (player != 's') && (player != 'p')) {
-            std::cout << "Type r, p, or s!";
+            std::cout << "Type r, p, or s!" << std::endl;
         };
     } while ((player != 'r') && (player != 's') && (player != 'p'));
     std::string result = winner(computer, player);
